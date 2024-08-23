@@ -1,17 +1,19 @@
-- [x] Polybar
-  - [ ] Transparency
-  - [ ] Icons for ram cpu and volume
+- [ ] Polybar
+  # - [ ] Transparency
+  - [ ] Icons for ram, cpu and volume
   - [ ] Split up the bar like in the rices
   - [ ] Add tray programs to the left
   - [ ] Use i3 for workspace 
   - [ ] Use the  as a seperator instead
+  - [ ] Brightness Like the volume dial
+  - [ ] Use the icons font lukehjo sent 
 
 - [ ] Lock screen configuration
   - [ ] Other UI element for password prompt
   - [ ] Redo the clock element
   
 - [ ] i3 binds
-  - [ ] Including brightness with brillo 
+  - [x] Including brightness with brillo 
 
 - [ ] max volume 100%
 
@@ -19,7 +21,7 @@
 
 - [ ] Install Tabby again, or find something else for ssh... (Rofi) 
 
-- [ ] Track the nvim config in own dotfiles
+- [x] Track the nvim config in own dotfiles
   - And push current changes
 
 - [ ] Rofi
