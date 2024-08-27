@@ -6,7 +6,7 @@
   - [ ] Use i3 for workspace 
   - [ ] Use the  as a seperator instead
   - [ ] Brightness Like the volume dial
-  - [ ] Use the icons font lukehjo sent 
+  - [x] Use the icons font lukehjo sent 
 
 - [ ] Lock screen configuration
   - [ ] Other UI element for password prompt
@@ -24,7 +24,7 @@
 - [x] Track the nvim config in own dotfiles
   - And push current changes
 
-- [ ] Rofi
+- [ ] Rofi
   - [ ] Watch the tutorial on how he used rofi for almost everything
   - [ ] Make a simple yet satesfying config with the catpuccin-mocha theme
     - https://github.com/gordonn/dotfiles \
