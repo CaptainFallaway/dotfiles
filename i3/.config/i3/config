@@ -17,7 +17,7 @@ font pango:Fira Code Nerd Font 12
 
 exec_always feh --bg-scale ~/.bg/nice-blue-background.png
 bindsym $mod+space exec rofi -show drun
-exec_always --no-startup-id exec picom 
+exec_always --no-startup-id exec picom
 exec_always --no-startup-id exec $HOME/.config/polybar/launch.sh
 
 gaps inner 4px
