@@ -16,7 +16,7 @@ set $mod Mod4
 font pango:Fira Code Nerd Font 12
 
 exec_always feh --bg-scale ~/.bg/wallhaven-kxo38d.png
-bindsym $mod+space exec rofi -show drun
+bindsym $mod+BackSpace exec rofi -show drun
 exec_always --no-startup-id exec picom
 exec_always --no-startup-id exec $HOME/.config/polybar/launch.sh
 
