@@ -15,7 +15,11 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:Fira Code Nerd Font 12
 
-exec_always feh --bg-scale ~/.bg/wallhaven-kxo38d.png
+set $background ~/.bg/wallhaven-kxo38d.png
+
+exec betterlockscreen -u $background
+
+exec_always feh --bg-scale $background
 bindsym $mod+BackSpace exec rofi -show drun
 exec_always --no-startup-id exec picom
 exec_always --no-startup-id exec $HOME/.config/polybar/launch.sh
